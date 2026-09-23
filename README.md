@@ -13,7 +13,7 @@ https://credenprove.vercel.app
 |----------|----------------------------------|
 | Preprod  | `d6f9af1c8241e874ecef7482db25153e23415d55c7c3f3b5b5d389d9308b79a2` |
 
-- 🔍 **Contract on Midnight Explorer:** [View Preprod Contract](https://preprod.midnight.network/contract/d6f9af1c8241e874ecef7482db25153e23415d55c7c3f3b5b5d389d9308b79a2)
+- 🔍 **Contract on Midnight Explorer:** [View Preprod Contract](https://preprod.midnightexplorer.com/contracts/0xd6f9af1c8241e874ecef7482db25153e23415d55c7c3f3b5b5d389d9308b79a2)
 - ⚡ **Confirmed On-Chain Transaction:** [View Extrinsic on 1AM Explorer](https://explorer.1am.xyz/tx/1e6c3a0ef62f1a5ecc53f237f8be9dd3b5b212d3f5e2a85cd3ae3ec366d36215?network=preprod)
 
 ![Preprod Contract Explorer](./screenshots/contract-link.png)
@@ -106,7 +106,7 @@ A status badge is located at the top of this README showing live workflow status
 | :--- | :--- |
 | **Product UI**<br>![Product UI](./screenshots/product-ui.png) | Interactive dApp interface with live 1AM Wallet integration, credential selection, ZK proof generation, and verification status. |
 | **On-Chain Transaction**<br>![Transaction](./screenshots/transaction-link.png) | Confirmed transaction on Midnight Preprod Explorer with cryptographic proof verification and ledger state update.<br>🔗 [View on 1AM Explorer](https://explorer.1am.xyz/tx/1e6c3a0ef62f1a5ecc53f237f8be9dd3b5b212d3f5e2a85cd3ae3ec366d36215?network=preprod) |
-| **Contract Explorer**<br>![Contract Explorer](./screenshots/contract-link.png) | Midnight Explorer contract page for `d6f9af1c82...` showing contract state, actions, and verification history.<br>🔗 [View on Midnight Explorer](https://preprod.midnight.network/contract/d6f9af1c8241e874ecef7482db25153e23415d55c7c3f3b5b5d389d9308b79a2) |
+| **Contract Explorer**<br>![Contract Explorer](./screenshots/contract-link.png) | Midnight Explorer contract page for `d6f9af1c82...` showing contract state, actions, and verification history.<br>🔗 [View on Midnight Explorer](https://preprod.midnightexplorer.com/contracts/0xd6f9af1c8241e874ecef7482db25153e23415d55c7c3f3b5b5d389d9308b79a2) |
 | **Test Output (8 Passing)**<br>![Tests Output](./screenshots/test-output.png) | Vitest test execution output showing 8 passing tests across `tests/counter.test.ts` and `tests/credential.test.ts`. |
 
 ## Product Proposal
