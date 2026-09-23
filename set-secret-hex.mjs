@@ -2,7 +2,7 @@ import sodium from 'libsodium-wrappers';
 import crypto from 'crypto';
 
 const token = process.env.GH_TOKEN;
-const repo = 'lilawti-lila620/credProve';
+const repo = 'lilawti-lila620/CREDENPROVE';
 const secretName = 'WALLET_SEED';
 
 // Generate a random 32-byte hex string (64 chars)
