@@ -16,7 +16,7 @@ https://credenprove.vercel.app
 - 🔍 **Contract on Midnight Explorer:** [View Preprod Contract](https://preprod.midnightexplorer.com/contracts/0xd6f9af1c8241e874ecef7482db25153e23415d55c7c3f3b5b5d389d9308b79a2)
 - ⚡ **Confirmed On-Chain Transaction:** [View Extrinsic on 1AM Explorer](https://explorer.1am.xyz/tx/1e6c3a0ef62f1a5ecc53f237f8be9dd3b5b212d3f5e2a85cd3ae3ec366d36215?network=preprod)
 
-![Preprod Contract Explorer](./screenshots/contract-link.png)
+![Preprod Contract Explorer](./screenshots/contract%20on%20chain.png)
 
 ## What This Does
 CredProve lets an organization or issuer open a "gate" in front of a restricted resource—such as a developer channel, a grant distribution pool, an exclusive voting round, or an accredited community.
@@ -28,7 +28,7 @@ The gate requires a credential at or above a specified tier. Using zero-knowledg
 
 The application generates a client-side zero-knowledge proof, pays network fees using Midnight DUST, balances the transaction with 1AM Wallet, and submits the proof on-chain to the Preprod network, leaving only a cryptographic nullifier and an incremented verification counter.
 
-![Interactive Product UI](./screenshots/product-ui.png)
+![Interactive Product UI](./screenshots/product%20ui.png)
 
 ## Privacy Model
 - PUBLIC:
@@ -83,7 +83,7 @@ npm run build
 npm test
 ```
 
-![Test Suite Output](./screenshots/test-output.png)
+![Test Suite Output](./screenshots/test%20output.png)
 
 ## CI/CD
 The repository uses GitHub Actions (`.github/workflows/ci.yml`) configured to automatically trigger on every `push` and `pull_request` to the `main` branch.
@@ -104,10 +104,11 @@ A status badge is located at the top of this README showing live workflow status
 
 | Screenshot | Description |
 | :--- | :--- |
-| **Product UI**<br>![Product UI](./screenshots/product-ui.png) | Interactive dApp interface with live 1AM Wallet integration, credential selection, ZK proof generation, and verification status. |
-| **On-Chain Transaction**<br>![Transaction](./screenshots/transaction-link.png) | Confirmed transaction on Midnight Preprod Explorer with cryptographic proof verification and ledger state update.<br>🔗 [View on 1AM Explorer](https://explorer.1am.xyz/tx/1e6c3a0ef62f1a5ecc53f237f8be9dd3b5b212d3f5e2a85cd3ae3ec366d36215?network=preprod) |
-| **Contract Explorer**<br>![Contract Explorer](./screenshots/contract-link.png) | Midnight Explorer contract page for `d6f9af1c82...` showing contract state, actions, and verification history.<br>🔗 [View on Midnight Explorer](https://preprod.midnightexplorer.com/contracts/0xd6f9af1c8241e874ecef7482db25153e23415d55c7c3f3b5b5d389d9308b79a2) |
-| **Test Output (8 Passing)**<br>![Tests Output](./screenshots/test-output.png) | Vitest test execution output showing 8 passing tests across `tests/counter.test.ts` and `tests/credential.test.ts`. |
+| **Product UI**<br>![Product UI](./screenshots/product%20ui.png) | Interactive dApp interface with live 1AM Wallet integration, credential selection, ZK proof generation, and verification status. |
+| **On-Chain Transaction**<br>![Transaction](./screenshots/transaction%20sucess%20verified.png) | Confirmed transaction on Midnight Preprod Explorer with cryptographic proof verification and ledger state update.<br>🔗 [View on 1AM Explorer](https://explorer.1am.xyz/tx/1e6c3a0ef62f1a5ecc53f237f8be9dd3b5b212d3f5e2a85cd3ae3ec366d36215?network=preprod) |
+| **Contract Explorer**<br>![Contract Explorer](./screenshots/contract%20on%20chain.png) | Midnight Explorer contract page for `d6f9af1c82...` showing contract state, actions, and verification history.<br>🔗 [View on Midnight Explorer](https://preprod.midnightexplorer.com/contracts/0xd6f9af1c8241e874ecef7482db25153e23415d55c7c3f3b5b5d389d9308b79a2) |
+| **Deployment Success**<br>![Success](./screenshots/sucess.png) | GitHub Actions CI/CD output showing the successful compilation and deployment of the smart contract to the Midnight Preprod Network. |
+| **Test Output (8 Passing)**<br>![Tests Output](./screenshots/test%20output.png) | Vitest test execution output showing 8 passing tests across `tests/counter.test.ts` and `tests/credential.test.ts`. |
 
 ## Product Proposal
 See [PROPOSAL.md](./PROPOSAL.md) for the complete product specification, target user personas, Midnight architectural rationale, data model, and roadmap to Mainnet.
