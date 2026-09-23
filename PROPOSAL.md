@@ -41,7 +41,7 @@ On conventional transparent blockchains (such as Ethereum, Cardano, or Solana), 
 **Yes, CredProve is highly feasible to reach Mainnet by Level 6.**
 
 1. **Current Foundation (Level 3):**
-   - The Compact circuit and smart contract are written, compiled, tested, and actively deployed on Midnight Preprod (`d6258de4cb23f7ff1903f4903d0a8d682f108cd9da99a7e592739296ba80dc8c`).
+   - The Compact circuit and smart contract are written, compiled, tested, and actively deployed on Midnight Preprod (`d6f9af1c8241e874ecef7482db25153e23415d55c7c3f3b5b5d389d9308b79a2`).
    - The frontend dApp is deployed live with wallet connection (1AM Wallet), client-side balancing via Midnight DUST, real-time transaction tracking via the Preprod GraphQL indexer, and responsive UI.
    - Comprehensive test suite covering circuit logic, state transitions, and zero-knowledge privacy guarantees.
 

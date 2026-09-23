@@ -65,8 +65,8 @@ An on-chain observer or verifier can see the total number of credentials that ha
 ## Setup & Run Locally
 ```bash
 # 1. Clone the repository
-git clone https://github.com/anshusingh97/CredProve.git
-cd CredProve
+git clone https://github.com/lilawti-lila620/CREDENPROVE.git
+cd CREDENPROVE
 
 # 2. Install dependencies
 npm install
@@ -105,8 +105,8 @@ A status badge is located at the top of this README showing live workflow status
 | Screenshot | Description |
 | :--- | :--- |
 | **Product UI**<br>![Product UI](./screenshots/product-ui.png) | Interactive dApp interface with live 1AM Wallet integration, credential selection, ZK proof generation, and verification status. |
-| **On-Chain Transaction**<br>![Transaction](./screenshots/transaction-link.png) | Confirmed transaction on Midnight Preprod Explorer with cryptographic proof verification and ledger state update.<br>🔗 [View on 1AM Explorer](https://explorer.1am.xyz/tx/5729da30b3babd5b0097a743ca4b97c0ffff1bcb3e99c745862a864b93729a22?network=preprod) |
-| **Contract Explorer**<br>![Contract Explorer](./screenshots/contract-link.png) | Midnight Explorer contract page for `0xd6258de4cb...` showing contract state, actions, and verification history.<br>🔗 [View on Midnight Explorer](https://preprod.midnightexplorer.com/contracts/0xd6258de4cb23f7ff1903f4903d0a8d682f108cd9da99a7e592739296ba80dc8c) |
+| **On-Chain Transaction**<br>![Transaction](./screenshots/transaction-link.png) | Confirmed transaction on Midnight Preprod Explorer with cryptographic proof verification and ledger state update.<br>🔗 [View on 1AM Explorer](https://explorer.1am.xyz/tx/1e6c3a0ef62f1a5ecc53f237f8be9dd3b5b212d3f5e2a85cd3ae3ec366d36215?network=preprod) |
+| **Contract Explorer**<br>![Contract Explorer](./screenshots/contract-link.png) | Midnight Explorer contract page for `d6f9af1c82...` showing contract state, actions, and verification history.<br>🔗 [View on Midnight Explorer](https://preprod.midnight.network/contract/d6f9af1c8241e874ecef7482db25153e23415d55c7c3f3b5b5d389d9308b79a2) |
 | **Test Output (8 Passing)**<br>![Tests Output](./screenshots/test-output.png) | Vitest test execution output showing 8 passing tests across `tests/counter.test.ts` and `tests/credential.test.ts`. |
 
 ## Product Proposal
