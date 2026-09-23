@@ -2,11 +2,14 @@
 [![CI](https://github.com/lilawti-lila620/CREDENPROVE/actions/workflows/ci.yml/badge.svg)](https://github.com/lilawti-lila620/CREDENPROVE/actions/workflows/ci.yml)
 > Prove a credential is valid — and meets a threshold — without disclosing it. Built on Midnight.
 
-## Live Demo
+### 🌟 Quick Links for Reviewers
+- 📄 **[Read the full Product Proposal (PROPOSAL.md)](./PROPOSAL.md)**
+- 🧪 **[View the Test Suite (Circuit, State, & Privacy Tests)](./tests)**
+- 🕵️ **[Read our Privacy Model & Claims](#privacy-model)**## Live Demo
 https://credenprove.vercel.app
 
 ## Demo Video
-🎥 [Watch the 1-Minute Walkthrough Video (Google Drive)](https://drive.google.com/file/d/1Q-uuKpG_QyRkoZlabIHLKox3Qf7UoJ2I/view?usp=sharing)
+🎥 [Watch the 1-Minute Walkthrough Video (Google Drive)](https://drive.google.com/file/d/1yJdPQfqIaX36PHnizjxLoEvQMeaF1GKn/view?usp=sharing)
 
 ## Contract Address
 | Network  | Address                          |
