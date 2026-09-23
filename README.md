@@ -1,9 +1,9 @@
 # CredProve
-[![CI](https://github.com/anshusingh97/CredProve/actions/workflows/ci.yml/badge.svg)](https://github.com/anshusingh97/CredProve/actions/workflows/ci.yml)
+[![CI](https://github.com/lilawti-lila620/CREDENPROVE/actions/workflows/ci.yml/badge.svg)](https://github.com/lilawti-lila620/CREDENPROVE/actions/workflows/ci.yml)
 > Prove a credential is valid — and meets a threshold — without disclosing it. Built on Midnight.
 
 ## Live Demo
-https://CredProve-one-blush.vercel.app
+https://credenprove.vercel.app
 
 ## Demo Video
 🎥 [Watch the 1-Minute Walkthrough Video (Google Drive)](https://drive.google.com/file/d/1Q-uuKpG_QyRkoZlabIHLKox3Qf7UoJ2I/view?usp=sharing)
@@ -11,10 +11,10 @@ https://CredProve-one-blush.vercel.app
 ## Contract Address
 | Network  | Address                          |
 |----------|----------------------------------|
-| Preprod  | `d6258de4cb23f7ff1903f4903d0a8d682f108cd9da99a7e592739296ba80dc8c` |
+| Preprod  | `d6f9af1c8241e874ecef7482db25153e23415d55c7c3f3b5b5d389d9308b79a2` |
 
-- 🔍 **Contract on Midnight Explorer:** [View Preprod Contract](https://preprod.midnightexplorer.com/contracts/0xd6258de4cb23f7ff1903f4903d0a8d682f108cd9da99a7e592739296ba80dc8c)
-- ⚡ **Confirmed On-Chain Transaction:** [View Extrinsic on 1AM Explorer](https://explorer.1am.xyz/tx/5729da30b3babd5b0097a743ca4b97c0ffff1bcb3e99c745862a864b93729a22?network=preprod)
+- 🔍 **Contract on Midnight Explorer:** [View Preprod Contract](https://preprod.midnight.network/contract/d6f9af1c8241e874ecef7482db25153e23415d55c7c3f3b5b5d389d9308b79a2)
+- ⚡ **Confirmed On-Chain Transaction:** [View Extrinsic on 1AM Explorer](https://explorer.1am.xyz/tx/1e6c3a0ef62f1a5ecc53f237f8be9dd3b5b212d3f5e2a85cd3ae3ec366d36215?network=preprod)
 
 ![Preprod Contract Explorer](./screenshots/contract-link.png)
 
