@@ -39,9 +39,9 @@ function App() {
     <div className="min-h-screen bg-graphite flex flex-col relative overflow-hidden">
       {/* Background Orbs */}
       <div className="absolute top-0 left-0 w-full h-full overflow-hidden -z-10 pointer-events-none">
-        <div className="absolute top-[-10%] left-[-10%] w-96 h-96 bg-verdigris/20 rounded-full mix-blend-screen filter blur-[100px] animate-blob"></div>
-        <div className="absolute top-[20%] right-[-10%] w-[30rem] h-[30rem] bg-brass/20 rounded-full mix-blend-screen filter blur-[120px] animate-blob" style={{animationDelay: "2s"}}></div>
-        <div className="absolute bottom-[-20%] left-[20%] w-[40rem] h-[40rem] bg-verdigris-light/10 rounded-full mix-blend-screen filter blur-[150px] animate-blob" style={{animationDelay: "4s"}}></div>
+        <div className="absolute top-[-10%] left-[-10%] w-[50rem] h-[50rem] bg-verdigris/10 rounded-full mix-blend-screen filter blur-[120px] animate-blob"></div>
+        <div className="absolute top-[20%] right-[-10%] w-[40rem] h-[40rem] bg-brass/10 rounded-full mix-blend-screen filter blur-[140px] animate-blob" style={{animationDelay: "2s"}}></div>
+        <div className="absolute bottom-[-20%] left-[20%] w-[60rem] h-[60rem] bg-indigo-500/10 rounded-full mix-blend-screen filter blur-[160px] animate-blob" style={{animationDelay: "4s"}}></div>
       </div>
 
       {/* Wallet Connect Modal */}
@@ -62,17 +62,19 @@ function App() {
         onDisconnect={wallet.disconnect}
       />
 
-      <main className="flex-1 mx-auto max-w-4xl w-full px-6 py-12 z-10">
-        <section className="mb-12 text-center flex flex-col items-center">
-          <div className="inline-block glass-panel rounded-full px-5 py-2 mb-8 border-verdigris/30">
-             <p className="font-mono text-xs text-verdigris-light font-bold tracking-widest uppercase">
+      <main className="flex-1 mx-auto max-w-5xl w-full px-6 py-16 z-10">
+        <section className="mb-16 text-center flex flex-col items-center">
+          <div className="inline-block glass-panel rounded-full px-6 py-2 mb-8 border-verdigris/40 shadow-[0_0_20px_rgba(0,243,255,0.2)]">
+             <p className="font-mono text-sm text-verdigris-light font-bold tracking-widest uppercase flex items-center gap-2">
+               <span className="w-2 h-2 rounded-full bg-verdigris animate-pulse"></span>
                Next-Gen ZK Verification
              </p>
           </div>
-          <h1 className="font-display text-4xl sm:text-6xl font-bold text-white leading-tight max-w-3xl mb-6">
-            Prove who vouches for you, <br/><span className="neon-text">without showing them the paper.</span>
+          <h1 className="font-display text-5xl sm:text-7xl font-extrabold text-white leading-tight max-w-4xl mb-8 drop-shadow-lg">
+            Prove who vouches for you, <br/>
+            <span className="neon-text inline-block mt-2">without showing them the paper.</span>
           </h1>
-          <p className="text-paper-dim text-lg mt-4 max-w-2xl leading-relaxed">
+          <p className="text-paper-dim text-xl mt-2 max-w-3xl leading-relaxed font-light">
             Present a credential below. The gate checks it was genuinely issued
             and meets the required tier — and records only that a valid credential
             passed, never which one, or exactly how qualified it was.
@@ -81,9 +83,10 @@ function App() {
             href={explorerContractUrl()}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 font-mono text-sm text-verdigris hover:text-white transition-all mt-10 glass-panel px-6 py-4 rounded-xl hover:shadow-[0_0_20px_rgba(0,243,255,0.5)] border-verdigris/20"
+            className="group relative inline-flex items-center gap-3 font-mono text-base text-white mt-12 glass-panel px-8 py-4 rounded-2xl overflow-hidden transition-all duration-500 hover:scale-105"
           >
-            ↗ View Contract on Midnight Preprod Explorer
+            <div className="absolute inset-0 bg-gradient-to-r from-verdigris/20 to-brass/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+            <span className="relative z-10 font-bold group-hover:text-verdigris transition-colors">↗ View Contract on Midnight Explorer</span>
           </a>
         </section>
 
