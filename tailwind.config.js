@@ -5,21 +5,21 @@ export default {
     extend: {
       colors: {
         graphite: {
-          DEFAULT: "#0d0221", // Deep cosmic violet
-          deep: "#070113",
-          light: "#1a0b36",
+          DEFAULT: "#ffffff", // Pure white for background
+          deep: "#f8fafc",   // Slate-50 for subtle off-white
+          light: "#f1f5f9",  // Slate-100 for panel backgrounds
         },
         paper: {
-          DEFAULT: "#ffffff",
-          dim: "#b3b3b3",
+          DEFAULT: "#0f172a", // Slate-900 for main text
+          dim: "#475569",     // Slate-600 for muted text
         },
         verdigris: {
-          DEFAULT: "#00f3ff", // Neon Cyan
-          light: "#5ce1e6",
+          DEFAULT: "#2563eb", // Vibrant Blue
+          light: "#60a5fa",
         },
         brass: {
-          DEFAULT: "#ff00a0", // Hot Pink
-          light: "#ff4db8",
+          DEFAULT: "#f59e0b", // Amber/Gold
+          light: "#fbbf24",
         },
       },
       fontFamily: {
@@ -28,8 +28,9 @@ export default {
         mono: ["IBM Plex Mono", "monospace"],
       },
       animation: {
-        blob: "blob 7s infinite",
+        blob: "blob 10s infinite",
         "pulse-glow": "pulse-glow 3s cubic-bezier(0.4, 0, 0.6, 1) infinite",
+        "float": "float 6s ease-in-out infinite",
       },
       keyframes: {
         blob: {
@@ -39,8 +40,12 @@ export default {
           "100%": { transform: "translate(0px, 0px) scale(1)" },
         },
         "pulse-glow": {
-          "0%, 100%": { opacity: 1, boxShadow: "0 0 15px 0px rgba(0, 243, 255, 0.7)" },
-          "50%": { opacity: .7, boxShadow: "0 0 5px 0px rgba(0, 243, 255, 0.2)" },
+          "0%, 100%": { opacity: 1, boxShadow: "0 0 15px 0px rgba(37, 99, 235, 0.4)" },
+          "50%": { opacity: .7, boxShadow: "0 0 5px 0px rgba(37, 99, 235, 0.1)" },
+        },
+        "float": {
+          "0%, 100%": { transform: "translateY(0)" },
+          "50%": { transform: "translateY(-15px)" },
         }
       }
     },
