@@ -79,9 +79,8 @@ function App() {
             </div>
           </div>
 
-          <h1 className="font-display text-6xl sm:text-8xl md:text-9xl font-black text-slate-900 leading-[1.1] max-w-5xl mb-10 tracking-tight">
-            Prove <span className="italic font-light text-blue-600">who</span> vouches <br />
-            for you.
+          <h1 className="font-display text-4xl sm:text-5xl md:text-6xl font-black text-slate-900 leading-[1.1] max-w-5xl mb-6 tracking-tight">
+            Prove <span className="italic font-light text-blue-600">who</span> vouches for you.
           </h1>
           
           <h2 className="font-display text-4xl sm:text-6xl font-bold max-w-4xl mb-10 text-slate-800">
